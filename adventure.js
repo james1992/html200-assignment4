@@ -52,6 +52,10 @@ function game() {
       userY = newCoordinates[1];
       
       distanceToTreasure = compareLocationToTreasure(userX, userY, treasureX, treasureY, distanceToTreasure)
+      
+      tableId = userX + "," + userY
+      console.log(tableId)
+      document.getElementById(tableId).classList.add('green');
 
     }else if(direction == "east"){
       newX = userX + 1;
@@ -91,7 +95,6 @@ function game() {
     console.log("X, Y:" +userX + "," +userY);  
     }
   }
-}
 function checkCoordinates(newX, newY, maxX, maxY, userX, userY){
   if(newX >= 0 && newY >= 0 && newX <= maxX && newY <= maxY){
     return [newX, newY];

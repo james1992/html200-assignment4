@@ -1,0 +1,11 @@
+table, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+td {
+  width: 2%;
+}
+.green {
+  background-color: green;
+}
