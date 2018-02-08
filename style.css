@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 table, td {
   border: 1px solid black;
   text-align: center;
@@ -6,6 +10,15 @@ table, td {
 td {
   width: 2%;
 }
+
+#button {
+  margin: 1%;
+  text-align: center;
+}
 .green {
   background-color: green;
+}
+
+.gold {
+  background-color: gold;
 }
